@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball44}
 layers:
-  QWRT:
+  default:
   - $$mdi:keyboard-esc$$
   - Q
   - W
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '`', h: '$$mdi:apple-keyboard-control$$', s: '~'}
+  - {t: '`', s: '~'}
   - A
   - S
   - D
@@ -26,7 +26,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
+  - Z
   - X
   - C
   - V
@@ -37,13 +37,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '-', s: _}
-  - {t: '`', s: '~'}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', h: NUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-tab$$', h: SYM}
+  - {t: '$$mdi:keyboard-tab$$', h: func}
   - $$mdi:apple-keyboard-command$$
   NUM:
   - $$mdi:keyboard-tab$$
@@ -90,7 +90,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYM:
+  func:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
