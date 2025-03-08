@@ -54,7 +54,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "QWRT";
+            label = "default";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
@@ -63,10 +63,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE       &kp Q        &kp W     &kp E            &kp R      &kp T                 &kp Y      &kp U    &kp I      &kp O    &kp P     &kp BSPC
-&mt LCTRL GRAVE  &kp A        &kp S     &kp D            &lt 3 F    &kp G                 &kp H      &lt 4 J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT   &mt LCTRL Z  &kp X     &kp C            &kp V      &kp B                 &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
-&kp GRAVE        &kp LALT     &kp LALT  &lt 1 BACKSPACE  &kp SPACE             &kp ENTER  &lt 2 TAB                                         &kp LEFT_GUI
+&kp ESCAPE      &kp Q     &kp W     &kp E            &kp R      &kp T                 &kp Y      &kp U    &kp I      &kp O    &kp P     &kp BSPC
+&kp GRAVE       &kp A     &kp S     &kp D            &lt 3 F    &kp G                 &kp H      &lt 4 J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z     &kp X     &kp C            &kp V      &kp B                 &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
+&kp LCTRL       &kp LALT  &kp LALT  &lt 1 BACKSPACE  &kp SPACE             &kp ENTER  &lt 2 TAB                                         &kp LEFT_GUI
             >;
         };
 
@@ -88,7 +88,7 @@
         };
 
         function_layer {
-            label = "SYM";
+            label = "func";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
