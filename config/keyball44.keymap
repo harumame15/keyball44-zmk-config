@@ -87,7 +87,7 @@
             >;
         };
 
-        symbol_layer {
+        function_layer {
             label = "SYM";
 
             // -----------------------------------------------------------------------------------------
@@ -104,7 +104,7 @@
             >;
         };
 
-        function_layer {
+        layer3 {
             label = "FUN";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
