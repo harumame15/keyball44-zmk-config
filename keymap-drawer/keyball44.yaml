@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball44}
 layers:
-  default:
+  DEFAULT:
   - $$mdi:keyboard-esc$$
   - Q
   - W
@@ -43,7 +43,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: NUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-tab$$', h: func}
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - $$mdi:apple-keyboard-command$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -90,7 +90,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  func:
+  SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
